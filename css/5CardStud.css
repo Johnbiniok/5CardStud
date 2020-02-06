@@ -1,0 +1,101 @@
+.wrap {
+    padding: 20px 10px 15px 10px;
+    max-width: 88%;
+    background-color: #FEE398;
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid #AB9B96;
+    box-shadow: 5px 10px 18px #463D01;
+    border-radius: 20px;
+    position: relative;
+    min-height: 93%;
+    overflow: hidden;
+}
+.center{
+    text-align: center;
+}
+#title {
+    color: #F7F7F7;
+}
+body {
+    background-color: #110C00;
+    /*background-image: url("../images/hangmanBackground.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1440px;
+    text-align: center;
+    padding-top: 380px;*/
+}
+/* Style the button that is used to open and close the collapsible content */
+.topMenu {
+    background-color: #FEE398;
+    color: #444;
+    cursor: pointer;
+    padding: 5px;
+    width: auto;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 30px;
+    display: inline-block;
+    float:left;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .topMenu:hover {
+    background-color: #BDBDBD;
+}
+
+/* Style the collapsible content. Note: hidden by default */
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #FEE398;
+    width: auto;
+    position: absolute;
+    float: bottom;
+}
+.information {
+    margin-left: 50px;
+    float: left;
+}
+a:link {
+    text-decoration: none;
+    color: #110C00;
+    font-size: 22px;
+    display: inline-block;
+    text-align: center;
+}
+a:link:hover {
+    color: #BDBDBD;
+    cursor: pointer;
+}
+a:visited {
+    color: #110C00;
+}
+a:active {
+    font-size: 28px;
+}
+.menu {
+    text-align: center;
+    padding-top: 13px;
+}
+.pictureBanner {
+    float: right;
+}
+.pHead{
+    margin-left: 230px;
+}
+.pHead2 {
+    margin-left: 300px;
+}
+.mTag:hover {
+    color: #BDBDBD;
+}
+#playGame {
+    padding: 15px;
+}
+#playGame:hover {
+    background-color: darkred;
+}

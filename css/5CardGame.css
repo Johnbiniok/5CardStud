@@ -1,0 +1,51 @@
+.oCards {
+    display: inline;
+    margin-left: 40px;
+}
+.cBack {
+    width: 130px;
+    height: 210px;
+    margin: 2px;
+}
+.UserCards {
+    margin-left: 357px;
+    margin-top: 255px;
+}
+#neutralCards {
+}
+.styleButton{
+    padding: 18px 35px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: #2C2626;
+    color: #FFEEDB;
+    display: inline-block;
+}
+.styleButton:hover{
+    cursor: pointer;
+    padding: 20px 40px;
+    color: lightcoral;
+    background-color: #000000;
+}
+#addCard, #addCard2, #addCard3 {
+    float: right;
+    text-align: center;
+    margin-top: 20px;
+}
+#winner{
+    font-size: 32px;
+    color: darkblue;
+    float: right;
+    margin-right: 25px;
+    clear: right;
+    display: inline-block;
+    margin-top: 15px;
+}
+.inline{
+    display: inline;
+    margin-right: 140px;
+    margin-left: 80px;
+}
+#replay {
+    float: right; clear: left;
+}

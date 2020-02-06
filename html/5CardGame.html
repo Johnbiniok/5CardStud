@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>5 Card Stud</title>
+    <link rel="stylesheet" href="../css/5CardStud.css">
+    <link rel="stylesheet" href="../css/5CardGame.css">
+    <!--<link href="fontasticsymbols/styles.css" rel="stylesheet" media="all">-->
+</head>
+<body>
+<header>
+    <h1 id="title" class="center">Poor Man's Casino</h1>
+</header>
+<div class="wrap">
+    <button type="button" class="topMenu">&#9776; Menu</button>
+    <div class="content">
+        <div class="menu"><a href="5CardStud.html" class="mTag">Home</a></div>
+        <div class="menu"><a href="5CardGame.html" class="mTag">5 Card Stud</a></div>
+        <div class="menu"><a href="AboutUs.html" class="mTag">About Us</a></div>
+        <div class="menu"><a href="ContactUs.html" class="mTag">Contact Us</a></div>
+    </div>
+    <div class="information">
+        <div class="pHead2"><h1>5 Card Stud Game</h1></div>
+        <button id="play5" class="styleButton">Play Game</button>
+        <div id="fullGame">
+            <h2 class="inline">Computer 1:</h2><h2 class="inline">Computer 2:</h2><h2 class="inline">Computer 3:</h2>
+        <div id="opponent1Cards" class="oCards"><img id="cDown1" src="../Cards/blue_back.jpg" class="cBack"><img id="cDown2" src="../Cards/blue_back.jpg" class="cBack"></div>
+        <div id="opponent2Cards" class="oCards"><img id="cDown3" src="../Cards/Green_back.jpg" class="cBack"><img id="cDown4" src="../Cards/Green_back.jpg" class="cBack"></div>
+        <div id="opponent3Cards" class="oCards"><img id="cDown5" src="../Cards/Red_back.jpg" class="cBack"><img id="cDown6" src="../Cards/Red_back.jpg" class="cBack"></div>
+            <div id="randomCard1" class="randomCards"></div>
+            <div id="randomCard2" class="randomCards"></div>
+            <div id="randomCard3" class="randomCards"></div>
+            <div id="neutralCards">
+                <button type="button" id="addCard" class="styleButton">Add Next Card</button>
+                <button type="button" id="addCard2" class="styleButton">Reveal Hands/Winner</button>
+                <a href="5CardGame.html" id="replay"><button type="submit" id="addCard3" class="styleButton">Replay</button></a>
+                <div id="showWinner"></div>
+                <div id="replaceR1"></div><div id="replaceR2"></div><div id="replaceR3"></div>
+
+            </div>
+            <div class="UserCards">
+                <h2>Player Cards:</h2>
+                <div id="userCard0"></div><div id="userCard1"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>
+
+<footer>
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/5CardStud.js"></script>
+    <script src="../js/5CardGame.js"></script>
+</footer>
+</body>
+</html>
